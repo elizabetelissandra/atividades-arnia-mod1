@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.cabecalho{
+    width: 16em;
+    height: 25em;
+    margin-top: 6em;
+    margin-left: 2em;
+}
+
+.titulo{
+    line-height: 1.5em;
+}
+.subtitulo{
+    line-height: 1.5em;
+    color: #252525;
+}
+
+.botao{
+    background-color:black;
+    color: white;
+    padding:1em 2em;
+    border-radius: 0.8em;
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+    gap: 1.5em;
+    position: absolute;
+    top: 2em;
+    right: 1em;
+}
+.img-container{
+    width: 22.5em;
+    height: 27em;
+}
+
+.img2-container{
+    position: relative;
+    top: 6em;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.number{
+    font-size: 1.5em;
+    color: rgba(37.19, 37.19, 37.19, 0.25);
+    font-weight: 800;
+    word-wrap: break-word
+}
+.img-container2{
+    display: flex;
+    object-fit: cover;
+    width: 20em;
+    height: 20em;
+    border-radius: 1em;
+}
+
+.grade-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5em;
+    margin-top: 10em;
+    margin-left: 1em;
+    margin-bottom: 3em;
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    display: none;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.texto1{
+    width: 785px;
+    padding-top: 38px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.subtitulo{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 785px;
+    margin-top: 50px;
+    margin-left: 40px;    
+}
+
+.texto2{
+    width: 860px;
+    height: 210px;
+    margin-top: 18px;
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+.texto3{
+    width: 860px;
+    margin-left: 80px;
+    margin-top: -130px;
+    
+}
+.box-header{
+    background-color: #6950A1;
+    width: 100%;
+    height: 301px;
+    top: -5px;  
+    
+}
+
+.logo{
+    width: 128px;
+    height: 38px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+.boxtextform{
+    border-radius: 15px ;
+    background-color: #1A1033E5;
+    color: #fff;
+    width: 335px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.boxform{
+    width: 372px;
+    height: 678px;
+    border-radius: 15px;
+    border: 2px solid #6950A1;
+    background-color: linear-gradient(0deg, #6950A1, #6950A1),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    position: relative;
+    top: -130px;
+    left: 40px;
+
+}
+
+input{
+    border-radius: 5px;
+    width: 332px;
+    height: 40px;
+    border: 1px solid #6950A1;
+    margin: 15px;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px;
+
+}
+
+button{
+    width: 332px;
+    height: 49px;
+    border-radius: 20px;
+    background: #6950A1;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.body{
+    display: flex;
+}
+

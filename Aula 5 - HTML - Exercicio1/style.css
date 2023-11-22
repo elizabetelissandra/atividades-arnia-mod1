@@ -1,0 +1,11 @@
+p {
+    width: 150px;
+    height: 100px;
+    color: pink;
+    font-family: arial;
+    border-top: 2px blue dashed;
+    border-left: 2px green dotted;
+    border-bottom: 2px red double;
+    padding-top: 10px;
+    padding-left: 10px;
+}

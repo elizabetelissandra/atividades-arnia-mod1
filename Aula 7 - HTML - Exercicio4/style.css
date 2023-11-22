@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.titulo{
+    color: orange;
+    text-decoration-line: underline;
+}
+
+.modo{
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+          
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.foto{
+    width: 5em;
+    height: auto;
+    display: inline-flex
+}

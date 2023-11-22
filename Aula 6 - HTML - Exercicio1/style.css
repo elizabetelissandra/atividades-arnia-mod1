@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #cecccc;
+}
+.icone1, .icone2 {
+ width: 32px;
+ height: 32px;
+ background-size: 100%;
+ display: inline;
+ padding-left: 2em;
+}
+
+.icone3, .icone4 {
+ width: 25px;
+ height: 25px;
+ background-size: 100%;
+
+}
+
+.titulo, .titulo1, .titulo2, .titulo3{
+    font-size: 2em;
+    color: #a10303;
+}
+
+.link, .link2, .opcao1, .opcao2, .opcao3, .opcao4, .opcao5 {
+padding-left: 1.25em;
+font-size: 1.5em;
+color: #a10303;
+}
+
+.link3, .link4{
+    font-size: 1em;
+    color: #808080;
+    font-weight: bold;
+}
+
+.subtitulo1, .subtitulo2 {
+    font-size: 1.5em;
+    padding-left: 1.25em;
+    font-weight: bolder;
+}    
+
+.opcao{
+    list-style: none; 
+    
+}
+.opcoes{
+    margin-bottom: 2em;        
+}
+
+.cardapio{
+    color: #a10303;
+    font-size: 1.5em;
+}
+ .texto{
+    margin-left: 1em; 
+       
+}
+
+.x-burguer {
+    width: 15em;
+    height: 15em;
+}
+
+.prato {
+    font-weight: lighter;
+    padding-left: 2em;
+}
+
+.Tipo{
+    padding-left: 1.20em;
+}
+

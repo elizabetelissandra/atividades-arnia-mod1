@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    width:20em;
+    height: 20em;
+    background:#E2E9E9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1em;
+}
+
+.imagem{
+    width: 60%;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items:center;
+}
+
+.titulo{
+    
+    color: #60606a;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    width: 12em;
+    bottom: 35%;
+    left: 54%;
+    transform: translateX(-55%);
+}
+
+.botao{
+    font-family: 'Poppins', sans-serif;
+    background-color: #5c908d;
+    color: white;
+    border: none;
+    width: 60%;
+    height: 13%;
+    display: inline-block;
+    position: absolute;
+    right: 20%;
+    bottom: 10%;   
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 21px -6px rgba(0,0,0,0.77);
+}
+
+.seta {
+    position: relative;
+    z-index: 1;
+    width: 2em;
+    bottom: -15.7em;
+    left: 13.5em;
+}

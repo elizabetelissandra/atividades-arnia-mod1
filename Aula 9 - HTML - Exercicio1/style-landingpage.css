@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav, header{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    z-index: 1;
+    top: 0em;
+}
+
+h1{
+    display: none;
+}
+
+ul{
+    
+    list-style: none;
+    background-color: #0055aa;
+    text-align: center;
+    width: 100%;
+    box-shadow: -3px 13px 30px -5px rgba(0,0,0,0.63);
+}
+
+a{    
+    color: white;
+    text-decoration: none;        
+}
+
+li{
+    height: 100%;
+    display: inline-block;
+    padding: 1.5em;  
+}
+#box-banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#quem-somos{
+    width: 90%;
+    line-height: 1.5;
+}
+.texto{
+    width: 100%;
+    height: 5%;
+    object-fit: contain;
+    object-position: center;
+    text-align: justify;
+    margin: 4em;
+}
+
+.subtitulo{
+    width: 20%;
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: #0055aa;
+    margin: 70px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.box-subtitulo{    
+    width: 98%;
+    padding: 4em;
+    text-align: center;
+    background-color: #0055aa;
+    justify-content: space-evenly;
+}
+
+.imagem{
+ width: 80%;
+ height: auto;
+ display: -moz-box;
+ align-items: center;
+ grid-row: 10em;
+ background-color: white;
+ margin: 1em auto;
+ padding-left: 0.5em;
+ border-radius: 1em;
+ 
+}
+
+.container{
+        width: 100%;
+        background-color: white;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 20em 20em 20em;  
+        gap: 3em;  
+}
+.textofinal{
+    display: block;
+    text-align: center;
+    background-color: #0055aa;
+    width: 100%;
+    padding: 6%;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+span, .fone, .endereco{
+    display: block;
+    padding: 1%;   
+    position: relative;
+    top: 6%;
+    left: 0;
+    right: 0;
+}
+
+.icone-whatsapp{
+    width: 3%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
+    z-index: 2;
+}
+
+
+

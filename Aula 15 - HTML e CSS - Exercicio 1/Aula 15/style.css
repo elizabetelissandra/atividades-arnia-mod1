@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #8869ce;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+}
+
+.titulo {
+    text-align: center;
+    padding: 2em;
+    letter-spacing: 0.1em;
+}
+
+.planos {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.plano {
+    max-width: 30%;
+    padding: 1em;
+}
+
+.plano1 {
+    background: #cecece;
+}
+
+.plano2 {
+    background: #f99717;
+}
+
+.plano3{
+    background: #8869ce;
+}
+
+.logo-plano img {
+    max-width: 30%;
+}
+
+.imagem-plano img {
+    max-width: 100%;
+}
+
+.descricao-plano ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 480px) {
+    .planos {
+        flex-wrap: wrap;
+    }
+
+    .plano {
+        min-width: 100%;
+    }
+
+    .imagem-plano {
+        display: none;
+    }
+}

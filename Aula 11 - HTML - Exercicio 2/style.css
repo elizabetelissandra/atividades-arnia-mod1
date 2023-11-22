@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: #dedede;
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;    
+}
+
+.card{
+    background-color: white;
+    width: 30em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    position: absolute;
+    top: 20%;
+}
+img{
+    max-width: 50%;
+    object-fit: cover; 
+    border-radius: 50%;
+    position: relative;
+    bottom: 8em;
+}
+
+.titulos{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 7em;
+}
+
+h1{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: grey;
+}
+
+h2{
+    font-size: 1.4em;
+    font-weight: 100;
+    border: 0.1em #dedede solid;
+}
+
+.linguagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    bottom: 7em;
+      
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 1em;
+    
+}
+li{
+    list-style: none;
+    margin-bottom: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: #0a66c2;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+button{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    background-color: #0a66c2;
+    border-radius: 0.7em;
+}

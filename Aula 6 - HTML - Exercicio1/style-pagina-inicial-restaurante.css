@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffc8;
+    text-align: center;
+    color: #a10303;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: lighter
+}
+
+span{
+    font-weight: bold;
+}
+
+.cardapio{
+    color: #a10303;
+    font-size: 20spx;
+    font-weight: bold;
+}
+
+.sair{
+    font-size: 10px;
+    color: #808080;
+    font-weight: bold;
+}

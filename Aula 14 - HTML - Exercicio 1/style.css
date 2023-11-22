@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo {
+    color: #3a3a4d;
+    margin-left: 20px;
+    font-size: 38px;
+    margin: 28px;
+    
+}
+
+table, thead, tr, th{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;    
+    
+}
+
+table{
+    width: 95%;
+    margin-left: 1em;
+    margin-right: 1em;  
+
+}
+thead th{
+    background-color: #0ca2ed;
+    padding: 5px;
+    color: white;
+    height: 100px;
+}
+
+.cabecalho th:first-child{
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.cabecalho th:last-child{
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+td, th{
+    text-align: center; 
+    width: 50px;
+}
+
+tr:nth-child(even){
+    background-color: #dfdcdc;
+}
+
+tr:nth-child(odd){
+    background-color: #fcfcfc
+}
+
+
+.botao-quitada{
+    background-color: #c7ecd4; 
+    color: #00c247;
+    margin: 1em;
+    padding: 1em;
+    border-style:none;
+    border-radius: 15px;
+}
+
+.botao-pendente{
+    background-color: #fdcdcd; color: #ff0000;
+    margin: 1em;
+    padding: 1em;
+    border-style:none;
+    border-radius: 15px;
+}
+.botao-valor{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(186, 184, 184); 
+    margin: 1em;
+    padding: 1em;
+    border-style:solid;
+    border-radius: 15px; 
+}
+    
+
+/*.segundo>td:nth-child(6){
+    background-color: #c7ecd4; color: #00c247;
+    display: inline-block;
+    margin: 1em;
+    padding: 1.1em;
+    border-radius: 15px;
+    
+}
+
+.segundo>td:nth-child(7){
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(186, 184, 184);  
+    display: inline-flex;
+    position:calc(7);
+    margin: 1em;
+    padding: 1.1em;
+    border-radius: 15px;
+   
+}
+
+.terceiro>td:nth-child(6){
+    background-color: #fdcdcd; color: #ff0000;
+    display: inline-block;
+    margin: 1em;
+    padding: 1.1em;
+    border-radius: 15px;
+}
+
+.quarto>td:nth-child(6){
+    background-color: #c7ecd4; color: #00c247;
+    display: inline-block;
+    margin: 1em;
+    padding: 1.1em;
+    border-radius: 15px;
+}
+
+.quinto>td:nth-child(6){
+    background-color: #c7ecd4; color: #00c247;
+    display: inline-block;
+    margin: 1em;
+    padding: 1.1em;
+    border-radius: 15px;
+}*/
+
+.botao-editar{
+    color: #0ca2ed;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #0ca2ed;
+    background-color: white;
+}
+
+.botao-excluir{
+        color: #ff0000;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid #ff0000;
+        background-color: white;
+}

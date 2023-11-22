@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-cadastrar-item.css">
+    <title>Cadastrar Item</title>
+</head>
+<body>
+    <h1 class="titulo">Cadastrar Item</h1>
+    <form>
+        <label for="nome_item">Nome:</label><br/>
+        <input type="text" id="nome_item"><br/> 
+        <label for="categorias">
+            Tipo:
+            <br>
+            <select name="tipo" id="tipo">
+                <option value="">Escolha...</option>
+                <option value="xburguer">X-burguer</option>
+                <option value="pizza">Pizza</option>
+                <option value="sopa">Sopa</option>
+                <option value="salada">Salada</option>
+                <option value="suco">Suco</option>
+                <option value="bebida">Bebida</option>
+                <option value="lanche">Lanche</option>
+                <option value="doce">Doçe</option>
+            <br/>
+            </select>
+        </label>
+        <br>
+        <label for="descricao">Descrição</label><br>
+        <textarea rows="3" cols="30"></textarea><br/>
+        <label for="foto">Foto:</label><br>
+        <input type="file" id="foto" name="foto" accept=".jpg,.png,.jpeg"/><br/>
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
+    <a class="link3" href="exercicio1-pt2.html">Voltar</a>
+</body>
+</html>

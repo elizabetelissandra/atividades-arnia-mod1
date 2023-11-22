@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2em;
+    border-bottom: 1px solid rgb(170, 70, 203);
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+    margin: 15px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 5em;
+    gap: 2em;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: #CECECE;
+    width: 50em;
+    margin-top: 5em;
+    padding: 1.3em;
+    border-radius: 1em;
+}
+
+.plano1{
+    background-color: #CECECE;
+    width: 100%;
+}
+.lista1 li{
+    list-style: none;
+
+    padding: 0.2em;
+    color: black;
+}
+
+.botao{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 0.5em 5em;
+    border-radius: 0.5em;
+}
+
+.botao1, .botao2, .botao3{
+    margin-top: 5em;
+}
+.plano1-box{
+    background-color: #CECECE
+}
+
+.plano2-box{
+    background-color: #F99717;
+}
+
+.plano3-box{
+    background-color: #8869CE;
+}
+.textos1 {
+    margin-top: 2.7em;
+}
+.textos2{
+    margin-top: 2.7em;
+}
+
+.textos3{
+    margin-top: 2.7em;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: #F99717;
+    width: 50em;
+    margin-top: 5em;
+    padding: 1.3em;
+    border-radius: 1em;
+}
+
+.plano2{
+    background-color: #F99717;
+    width: 100%;
+}
+
+.lista2 li{
+    list-style: none;
+    background: #F99717;
+    padding: 0.2em;
+    color: black;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: #8869CE;
+    width: 50em;
+    margin-top: 5em;
+    padding: 1.3em;
+    border-radius: 1em;
+}
+
+.plano3{
+    background-color: #8869CE;
+    width: 100%;
+}
+
+.lista3 li{
+    list-style: none;
+    background: #8869CE;
+    padding: 0.2em;
+    color: black;
+}
+.titulo-plano{
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: black;
+}
+.imagem-plano{
+    display: flex;
+    width: 100%;
+    background: transparent;
+}
+.logo-arnia{
+    width: 4em;
+    background: transparent;
+    margin-right: 1em;
+}
+
+hr{
+    border: 0.1em solid rgb(181, 181, 181);
+    width: 100%;
+    height: 0.1%;
+}
+
+@media screen and (max-width: 480px) {
+    section{
+        flex-wrap: wrap;
+    }
+    .imagem-plano{
+        display: none;
+    }
+}

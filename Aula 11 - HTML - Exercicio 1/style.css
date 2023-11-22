@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background: linear-gradient(243.36deg, #7526f59e 0%, #7f38f329
+    22.93%, #f5f5f51f 98%);
+    height: 100vw;
+    width: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100vw;
+}
+
+h1{
+    padding: 40px;
+}
+.menu{
+    justify-content: space-between;
+    color: black;
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-top: 12%; 
+    padding-right: 5em;    
+}
+
+.inferior{
+    display: flex;
+}
+
+h2{
+    color: #AE218F;
+    font-weight: 900;
+    margin-bottom: 50px;
+    font-size: 30px;
+
+
+}
+.textos{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+.text1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.6;
+    width: 20em;
+    
+}
+
+.text2{
+    font-size: 20px;
+    line-height: 1.4;
+    width: 35em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: 900;
+}
+
+img{
+    width: 50em;
+    position: relative;
+    left: 100vh;
+}
+
+.botao{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 50px;
+}
+
+.entrar{
+    background-color:#9D6DEC;
+    border: 10px;
+    color: white;
+    width: 220px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 900;
+    border:3px solid #F0F0F0;
+    
+}
+
+.login{
+    background-color:#F0F0F0;
+    border: 10px;
+    color: #8D53E9;
+    width: 220px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 900;
+    border: 3px solid #9D6DEC;
+}

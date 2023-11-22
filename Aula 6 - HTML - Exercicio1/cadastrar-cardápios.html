@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-cadastrar-cardapio.css" />
+    <title>Cadastrar Cardápio</title>
+  </head>
+  <body>
+    <h1 class="titulo">Cadastrar Cardápio</h1>
+    <form>
+      <div>
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" /><br />
+        <label for="descricao">Descrição:</label><br />
+        <textarea name="descricao" id="descricao" cols="25" rows="3"></textarea>
+        <p>Ativo?</p>
+        <input type="radio" id="ativoSim" name="ativo" />
+        <label for="sim">Sim</label><br />
+        <input type="radio" name="ativo" id="ativoNao" />
+        <label for="nao">Não</label>
+      </div>
+      <hr />
+      <h2>Pratos</h2>
+      <div>
+        <label for="prato1">Prato 1:</label><br />
+        <select name="prato" id="prato1">
+          <option value="">Escolha uma opção</option>
+          <option value="macarronada">Macarronada</option>
+          <option value="frango_frito">Frango Frito</option>
+          <option value="sopa_de_feijao">Sopa de Feijão</option>
+          <option value="carne_assada">Carne Assada</option>
+          <option value="coxinha">Coxinha</option>
+          <option value="churrasco">Churrasco</option></select
+        ><br />
+        <label for="valor1">Valor:</label><br />
+        <input type="number" id="valor1" name="valor1" />
+      </div>
+      <div>
+        <label for="prato2">Prato 2:</label> <br />
+        <select name="prato2" id="prato2">
+          <option value="">Escolha...</option>
+          <option value="mistoquente">Misto Quente</option>
+          <option value="tapioca">Tapioca</option>
+          <option value="caldo_vermelho">Caldo Vermelho</option>
+          <option value="cocadas">Cocadas</option></select
+        ><br />
+        <label for="valor2">Valor:</label><br />
+        <input type="number" id="valor2" name="valor2" />
+      </div>
+      <hr />
+      <h2>Bebidas</h2>
+      <div>
+        <label for="bebida1">Bebida 1:</label><br />
+        <select name="bebida" id="bebida1">
+          <option value="">Escolha...</option>
+          <option value="caipirinhas">Caipirinhas</option>
+          <option value="cerveja">Cervejas</option>
+          <option value="suco">Suco</option>
+          <option value="refrigerante">Refrigerante</option>
+          <option value="agua">Agua</option></select
+        ><br />
+        <label for="valor3">Valor</label><br />
+        <input type="number" id="valor3" name="valor3" /><br />
+      </div>
+      <div>
+        <label for="bebida2">Bebida 2:</label><br />
+        <select name="bebida2" id="bebida2">
+          <option value="">Escolha...</option>
+          <option value="caipirinhas">Caipirinhas</option>
+          <option value="cerveja">Cervejas</option>
+          <option value="suco">Suco</option>
+          <option value="refrigerante">Refrigerante</option>
+          <option value="agua">Água</option>
+        </select>
+        <br />
+        <label for="valor4">Valor:</label><br />
+        <input type="number" id="valor4" name="valor4" />
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
