@@ -61,7 +61,6 @@ section{
 }
 .lista1 li{
     list-style: none;
-
     padding: 0.2em;
     color: black;
 }
@@ -177,5 +176,8 @@ hr{
     }
     .imagem-plano{
         display: none;
+    }
+    .menu{
+        margin-left: 1em;
     }
 }
