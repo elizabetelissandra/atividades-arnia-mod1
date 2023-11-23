@@ -42,6 +42,8 @@ section{
     align-items: stretch;
     margin: 5em;
     gap: 2em;
+    position: relative;
+     bottom: 6em;
 }
 .box1{
     display: flex;
@@ -173,6 +175,8 @@ hr{
 @media screen and (max-width: 480px) {
     section{
         flex-wrap: wrap;
+        position: relative;
+        left: 0;
     }
     .imagem-plano{
         display: none;
@@ -180,4 +184,21 @@ hr{
     .menu{
         margin-left: 1em;
     }
+}
+
+@media screen and (max-width: 768px){
+    section{
+        flex-wrap: wrap;
+        position:relative; 
+        right: 0em;
+        bottom: 6em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section{
+        position: relative;
+        bottom: 6em;
+    }
+    
 }
