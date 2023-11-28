@@ -12,7 +12,7 @@ const b = io.readInt()
 io.write('Informe o valor de c:')
 const c = io.readInt()
 
-let delta = b * b - 4 * a * c;
+let delta = (b * b) - (4 * a * c);
 if (delta < 0) {
     io.write("A equacao nao tem raizes reais")
     } else if(delta == 0){
