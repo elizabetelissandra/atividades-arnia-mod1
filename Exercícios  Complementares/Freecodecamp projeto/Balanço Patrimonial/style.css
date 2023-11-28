@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Neuton:wght@300;400;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.thespaco{
+    padding: 0;
+
+}
+.descricao{
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    padding: 1rem 0 0.75rem;
+    margin-right: -13.5rem;
+    background-color: #f2f2f2;
+    margin-left: 0;
+
+}
+
+.valores{
+    display: block;
+    text-align: end;
+    width: 20%;
+    word-spacing: 5em;
+    line-height: 2em;
+}
+
+tr th{
+text-align: left;
+}
+.anos{
+    display: block;
+    text-align: end;
+    width: 100%;
+    word-spacing: 5em;
+    line-height: 2em;
+    background-color: aquamarine;
+    font-size: 500;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    display: block;
+    padding: 8px;
+    text-align: right;
+    width: 1em 1em;
+    padding: 0.3rem 0.25rem 0;
+  }
+th {
+    background-color: #f2f2f2;
+  }
+  
+  tr{
+    background-color: #f9f9f9;
+  }
+  
+  td:nth-child(2) {
+    text-align: right;
+
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr {
+    background-color: #aea3a3;
+  }
+  
+  td:nth-child(2) {
+    text-align: right;
+  }
+  

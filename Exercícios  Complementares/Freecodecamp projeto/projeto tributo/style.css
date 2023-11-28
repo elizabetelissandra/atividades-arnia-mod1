@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300;400;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Neuton', serif;
+    
+}
+body{
+    display: block;
+    background-color: #161934;
+}
+
+main{
+    width: 90%;
+    background-color: #e2e2e2;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+
+#inicio{
+    display: block;
+    text-align: center;
+    line-height: 3.5em;
+    
+}
+
+#title{
+    font-size: 3.5em;
+}
+
+#inicio span{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+#img-div{
+    display: block;
+    background-color: #fff6ff;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 1.5em;
+    margin: 0.5em auto;
+}
+
+#tribute-info{
+    margin: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: auto 1em;
+}
+.info{
+    display: block;
+    width: 100%;
+    margin: auto 1.5em;
+}
+
+p strong{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    margin-left:15em;
+    margin-top: 2em;
+    
+}
+
+ul{
+    
+    width: 50%;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-left:15em;
+    margin: 2.5em auto;
+    
+}
+
+.mensagem{
+    display: block;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: rgb(34, 89, 161);
+    margin: 2em auto;
+    border: #161934 2px solid;
+}
+
+p .declaracao{
+    font-weight: bold;
+}
+
+.info-final{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin:auto 7em;
+}
