@@ -4,7 +4,7 @@ const io = require('../io/io')
 depois imprime os pares e depois os ímpares*/
 let n
 let num = []
-for(i=0; i<10; i++){
+for(let i=0; i<10; i++){
     io.write(`Digite ${i+1}º número:`)
     n = io.readInt()
     num.push(n)
@@ -13,8 +13,7 @@ for(i=0; i<10; i++){
         io.write(`${num[i]} é Par!`)
     }else{
         io.write(`${num[i]} é Impar!`)
-   
-}
+    }
 
 }
     
