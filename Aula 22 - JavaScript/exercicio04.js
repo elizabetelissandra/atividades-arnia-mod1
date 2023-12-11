@@ -1,11 +1,17 @@
-const io = require('../io/io')
+const io = require('../io/io');
 
-/*Faça um programa para escrever de 1 a n, sendo n fornecido
-pelo usuário*/
-io.write('Digite um número: ')
-    let n = io.readInt()
+function escreverNumerosAteN(n) {
+    for (let i = 1; i <= n; i++) {
+        io.write(i);
+    }
+}
 
-for(let i = 1; i <= n; i++){ 
-    io.write(i)
+io.write("Digite um número:");
+let numero = io.readInt();
+
+if (numero > 0) {
+    escreverNumerosAteN(numero);
+} else {
+    io.write("Por favor, insira um número maior que zero.");
 }
     
