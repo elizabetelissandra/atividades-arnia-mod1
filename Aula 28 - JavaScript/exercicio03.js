@@ -1,6 +1,6 @@
 const io = require("../io/io");
 
-/*Faça um programa para receber nome e idade de 10 funcionários (nome,
+/*Faça um programa para receber de 10 funcionários (nome,
 matrícula, cargo e salário). Depois faça um método que aumente o salário de
 cada um em 10%. Mostre a soma dos salários antes e depois do aumento (use o
 método de array .reduce() para somar).*/
@@ -24,3 +24,19 @@ for (let i = 0; i < 3; i++) {
   };
   listaDeFuncionarios.push(obj);
 }
+
+
+
+let antesdasoma = listaDeFuncionarios.reduce((acumulador, atual) => {
+  return acumulador + atual.salario;
+},0)
+
+io.write('Valor do salários antes da soma:')
+io.write(antesdasoma)
+
+let depoisdasoma = listaDeFuncionarios.reduce((acumulador, atual) => {
+   return acumulador + atual.salario + (atual.salario * 0.10)
+},0)
+
+io.write('Valores dos salários depois da soma de 10%:')
+io.write(depoisdasoma)
