@@ -12,11 +12,12 @@ class Pessoa {
     
 }
 class Aluno extends Pessoa{
-    constructor(curso){
+    constructor(curso, nome, idade){
+        super(nome, idade) // super - acessar as propriedades do pai.
         this.curso = curso
     }
     saudacao(){
-        console.log(`Olá ${this.nome} você tem ${this.idade} anos e cursa ${this.curso}, certo? `)
+        console.log(`Olá ${this.nome}, você tem ${this.idade} anos e cursa ${this.curso}, certo? `)
     }
 }
 
