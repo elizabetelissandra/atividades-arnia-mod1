@@ -11,7 +11,7 @@ class Pessoa {
     }
     
 }
-class Aluno{
+class Aluno extends Pessoa{
     constructor(curso){
         this.curso = curso
     }
@@ -19,8 +19,7 @@ class Aluno{
         console.log(`Olá ${this.nome} você tem ${this.idade} anos e cursa ${this.curso}, certo? `)
     }
 }
-Aluno.prototype = new Pessoa()
-Aluno.prototype.constructor = Aluno
+
 
 let alunos = []
 const aluno = new Aluno()
