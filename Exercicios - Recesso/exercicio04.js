@@ -29,8 +29,9 @@ for(let i=0;i<5;i++){
     //criando um obj com as informações dos alunos
      let aluno = {nome: nome, nota: nota}
      alunos.push(aluno)
-     aprovadoOuReprovado(alunos, calculo)
+     
 }
+aprovadoOuReprovado(alunos, calculo)
 console.log(`Os alunos aprovados foram:`)
 console.log(alunosAprovados)
 console.log('----------------------------------------------------------------------')

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Modificando o navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2em;
+}
+nav ul{
+    list-style: none; 
+}
+nav li{
+    display: inline-block;   
+}
+
+nav li:nth-child(-n+5){
+    margin-right: 1em;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+nav button{
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Começando a modificação do header banner */
+header{
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 45vw;
+}
+.infobanner{
+    width: 80%;
+    font-size: 1.8em;
+    text-align: left;
+    line-height: 1.5;
+    color:#4D4D4D;
+    margin: 2.5em;
+}
+.infobanner span{
+    color:#4caf4f
+}
+.infobanner p {
+    margin: 0.5em 0;
+    color: #717171;
+    font-size: 0.8em;
+}
+
+.infobanner button{
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 1em 3.5em;
+    border-radius: 0.5em;
+    font-size: 0.7em;
+    font-weight: bold;
+    
+}
+.imagembanner{
+    width: 90%;
+    text-align: center;   
+}
+header img{
+    width: 80%;
+}
+
+/* começando a modificação das sections */
+
+.textobanner{
+    /* centralizando o titulo da section e adicionado um espaço entre as linhas*/
+    text-align: center;
+}
+.textobanner h2{
+    font-size: 2.2em;
+    margin-top: 0.5em;
+}
+.textobanner span{
+    text-align: center;
+    font-size: 1.2em;
+}
+.cards{
+  display: flex;
+  margin: 1.1em 0;
+}
+
+.card { flex-grow: 1; }
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+}
+
+.card span{
+    background-color: #4caf4f;
+    padding:0.4em 0.8em;
+    color:white;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+.card h3{
+    margin: 1.5em 0;
+    font-size: 1.5em;
+}
+.card p{
+    max-width: 80%;
+    text-align: center;
+    line-height: 1.3em;
+}
