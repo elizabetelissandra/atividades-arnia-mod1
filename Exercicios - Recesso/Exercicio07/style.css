@@ -62,7 +62,7 @@ main{
 }
 
 .resposta p{
-    font-size: 2em;
+    font-size: 1em;
     padding-top: 1rem;
     line-height: 1.6;
     margin-left: 0.2em;
@@ -71,7 +71,7 @@ main{
 .pergunta.ativado .resposta{
     overflow: visible;
     max-height: 18.75em;
-    font-size: 2em;
+    font-size: 1em;
     animation: fade 1s ease-in-out;
 }
 
@@ -87,16 +87,24 @@ main{
 }
 @media only screen 
    and (max-width : 1024px) {
+    .resposta{
+        font-size: 0.6em;
+        
+    }
+
     .pergunta.ativado .resposta{
-        max-height: 35em;
-        font-size: 0.5em;
+        max-height: 50em;
+        font-size: 0.6em;
     }
 }
 
 @media only screen 
    and (max-width : 767px) {
     .pergunta.ativado .resposta{
-        max-height: 25em;
+        max-height: 50em;
         font-size: 0.5em;
+    }
+    .resposta{
+        font-size: 0.5em;      
     }
 }
