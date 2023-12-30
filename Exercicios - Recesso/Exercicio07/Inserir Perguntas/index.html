@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <title>Perguntas Cadastradas - Inserir Perguntas</title>
+  </head>
+  <body>
+    <header>
+        <img src="./img/image 1 (1).png" alt="logo da arnia" />
+    </header>
+    <main>
+        <div>
+        <h1>Perguntas Cadastradas</h1>
+        <button class="adicionarPergunta">Nova</button>
+        </div>
+        <table id="tabelaPerguntas">
+            <thead>
+                <th>ID</th>
+                <th>Pergunta</th>
+                <th colspan="2">Ações</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>O que é a Arnia?</td>
+                    <td><button onclick="editarPergunta(1)">Editar</button> <button onclick="excluirPergunta(1)">Excluir</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Qual a metodologia da Arnia?</td>
+                    <td><button onclick="editarPergunta(2)">Editar</button> <button onclick="excluirPergunta(2)">Excluir</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Qual a metodologia da Arnia?</td>
+                    <td><button onclick="editarPergunta(3)">Editar</button> <button onclick="excluirPergunta(3)">Excluir</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
