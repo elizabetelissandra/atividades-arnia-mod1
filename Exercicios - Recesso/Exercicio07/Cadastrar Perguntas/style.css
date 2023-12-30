@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: white;
+    /* scroll-behavior: smooth; */
+}
+header{
+    background-color: #6950A1;
+    padding: 27px;
+}
+
+header img{
+    width: 128px;
+}
+main{
+    margin: 50px;
+}
+main div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: #6950A1;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+label{
+    text-align: start; 
+    color:white;
+    font-weight: bold;
+}
+#pergunta{
+    width: 50em;
+    margin: 1em 0;
+    padding: 5px;
+    border: 2px solid #6950A1 ;
+    background-color: white;
+    border-radius: 8px;
+    outline: none;
+}
+
+#resposta{
+    width: 50em;
+    margin: 1em 0;
+    padding: 5px;
+    border: 2px solid #6950A1 ;
+    background-color: white;
+    border-radius: 8px;
+    outline: 0;
+}
