@@ -33,6 +33,19 @@ class Alunos{
             td_cpf.innerText = this.arrayAlunos[i].cpf
             td_email.innerText = this.arrayAlunos[i].email
             td_nasc.innerText = this.arrayAlunos[i].nasc
+            let dataSemFormatar = this.arrayAlunos[i].nasc
+            
+            let data = new Date(dataSemFormatar)
+            let dia = data.getDate()
+            let mes = data.getMonth()
+            let ano = data.getFullYear()
+            mes += 1
+            dia += 1
+            dia = dia < 10 ? '0' + dia : dia;
+            mes = mes < 10 ? '0' + mes : mes;
+            let dataFormatada = dia + "/" + mes + "/" + ano
+            td_nasc.innerText = dataFormatada
+            console.log(dataFormatada)
             
             td_id.classList.add('center')
 
@@ -40,21 +53,10 @@ class Alunos{
             button_visualizar.setAttribute('type','submit')
             button_visualizar.setAttribute('value','Visualizar');
             button_visualizar.innerText = 'Visualizar'; // Definindo o texto do botão
-            
-            let formatar_data = document.createElement('button')
-            formatar_data.setAttribute('type','submit')
-            formatar_data.setAttribute('value', 'formatar')
-            formatar_data.innerText = ('Formatar Data')
 
             td_acoes.appendChild(button_visualizar)
-            td_acoes.appendChild(formatar_data)
-            ; // Chama a função para adicionar eventos aos botões
-
-            button_visualizar.addEventListener('click', adicionarEventosBotoes())
         }
-
     }
-
     adicionar(aluno){
         this.arrayAlunos.push(aluno)
         this.id++;
@@ -71,26 +73,6 @@ class Alunos{
         novoAluno.nasc = document.querySelector('#nasc').value
         return novoAluno;
     }
-
-    formatarData() {
-        const dataPartes = data.split('-');
-        const dataFormatada = `${dataPartes[2]}/${dataPartes[1]}/${dataPartes[0]}`;
-        return dataFormatada;
-      }
-       // Método para adicionar eventos aos botões após a criação da tabela
-    adicionarEventosBotoes() {
-        const botoesFormatar = document.querySelectorAll('[value="formatar"]');
-
-        botoesFormatar.forEach((botao, index) => {
-            botao.addEventListener('click', () => {
-                const data = this.arrayAlunos[index].nasc;
-                const dataFormatada = this.formatarData(data);
-                this.arrayAlunos[index].nasc = dataFormatada;
-                this.listarTabela();
-            });
-        });
-    }
-
     validarCampos(aluno){
         /* se algum campo estiver vazio retorna false*/
         let msg = '';
