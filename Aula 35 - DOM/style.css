@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 0.5em;
+}
+.titulo-resultado{
+    color: #00a7e9;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 5em;
+}
+
+label{
+    font-weight: 500;
+}
+
+input{
+    padding: 0.8em;
+    border-radius: 15px;
+    outline: 0;
+}
+
+select{
+    padding: 0.8em;
+    border-radius: 15px;
+    outline: 0;
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 1em;
+    border-radius: 15px;
+    outline: 0;
+    border: none;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.verde{
+    border: 2px #327a64 solid;
+}
+
+.vermelho{
+    border: 2px red solid;
+}
+
+.resultado{
+    box-sizing: border-box;
+    margin: 2em auto;
+    width: 450px;
+    height: 12em;
+    box-shadow: 0px 1px 6px 0px #00000040;
+    border-radius: 2em;
+}
+
+.cate{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.cate div:first-child{
+    font-weight: bold;
+}
+
+.resultado-final{
+    text-align: center;
+    font-weight: 400;
+    color: darkgray;
+}
+
+.div-pai{
+    margin: 30px 0;
+}

@@ -6,3 +6,22 @@
     color: white;
 }
 
+/* .estilo .dark{
+    background-color: black;
+    color: white;
+} */
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    font-Size: 24px;
+    font-Weight: bold;
+    margin-Bottom: 20px;
+}
+
+.section{
+    display: 'flex';
+    justify-Content: "center";
+}

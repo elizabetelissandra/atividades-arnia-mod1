@@ -3,7 +3,7 @@ function carregarEstilo(){
 const body1 = document.getElementById('body')
 
     body1.style.fontFamily = "'Poppins', sans-serif";
-    body1.style.color = "#2b2b2a" 
+    // body1.style.color = "black";
 
 const title = document.getElementById('title')
     title.style.fontSize = '24px'
@@ -35,20 +35,10 @@ const second = document.getElementById('secondParagraph')
 
 
 function darkMode(){
-        const btnDarkLight = document.getElementById('btnDarkLight');
-        const theme = localStorage.getItem('theme');
-    
-        if (theme === 'dark') {
-            document.body.classList.add('dark');
-        }
-    
-        btnDarkLight.addEventListener('click', () => {
-            if (theme === 'dark') {
+  
+            if (document.getElementById('body').classList.contains('dark')) {
                 document.body.classList.remove('dark');
-                localStorage.setItem('theme', 'light');
             } else {
                 document.body.classList.add('dark');
-                localStorage.setItem('theme', 'dark');
             }
-        });
-    }
+        }
