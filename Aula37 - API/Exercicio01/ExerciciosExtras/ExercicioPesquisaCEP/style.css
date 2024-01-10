@@ -1,0 +1,35 @@
+body{
+    background-color: dimgrey;
+}
+
+#formulario{
+    text-align: center;
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 2px white solid;
+}
+
+#formulario label{
+    font-size: 30px;
+    color: white;
+}
+
+#formulario input{
+    background-color: cadetblue;
+    outline: none;
+    border: none;
+    border-radius: 0.5em;
+    margin: 1.5em 0;
+    padding: 1em;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color white;
+
+}

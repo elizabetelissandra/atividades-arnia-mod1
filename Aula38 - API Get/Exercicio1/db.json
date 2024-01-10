@@ -1,0 +1,17 @@
+{
+    "posts": [
+       {
+        "id": 1,
+        "imagem":"https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg",
+        "title": "'Estamos mortos. É um golpe muito duro', diz Messi após derrota da Argentina",
+        "descricao": "O atacante Lionel Messi, da Argentina, usou palavras fortes para expressar a tristeza pela derrota por 2 a 1 para a Arábia Saudita, nesta terça-feira, na abertura do Grupo C da Copa do Mundo..."
+       },
+       {
+        "id": 2,
+        "imagem":"https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg",
+        "title":"Bale marca, e País de Gales busca empate com os Estados Unidos",
+        "descricao": "O jogo teve dois tempos bem distintos. O primeiro, dominado amplamente pelos Estados Unidos, que abriram o placar com Weah, mas não souberam aproveitar o nulo ataque galês para fazer mais gols. Na segunda etapa, País de Gales mudou..."
+       } 
+    ],
+    "users": []
+}

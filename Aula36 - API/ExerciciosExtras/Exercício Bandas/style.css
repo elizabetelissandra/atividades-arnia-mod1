@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 2.5em;
+    color:crimson
+}
+
+.secaoForm{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 3em;
+    border-radius: 2em
+}
+
+.bandas{
+    border: 5px rgb(237, 195, 133) solid;
+
+    padding: 1.5em;
+    border-radius: 2em;
+    margin: 0 auto;
+}
+.bandas h2{
+    color: rgb(185, 67, 67);
+    width: 95%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.bandas p{
+    text-align: center;
+    font-size: 1.5em;
+    width: 95%;
+}
