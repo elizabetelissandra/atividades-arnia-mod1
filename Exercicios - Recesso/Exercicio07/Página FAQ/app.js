@@ -1,5 +1,5 @@
 function aparecerResposta(){
-    
+    ("elementoParaMostrarOuEsconder");
     let perguntas = document.querySelectorAll('.pergunta')
     
         perguntas.forEach(pergunta => {

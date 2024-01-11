@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.renderDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.receitas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    width: 40%;
+    margin: 1em;
+    background-color: antiquewhite;
+    border: 2px rgb(209, 209, 209) solid;
+}
+.receitas h3{
+    color: #F44236;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 1em;
+    text-align: center;
+}
+.receitas img{
+    width: 80%;
+}
+.receitas button{
+    width: 80%;
+    background-color: #F44236;
+    color: #fff;
+    border: none;
+    padding: 1.5em 1em;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+.descricao{
+    width: 85%;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: 300;
+}
