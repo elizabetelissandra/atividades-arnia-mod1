@@ -1,3 +1,5 @@
+import {key} from "./XKey.js"
+
 const mostrarTexto = (id) => {
     const botao = document.querySelector('.btnDescricao')  
     const descricao = document.querySelector(`#descricao${id}`) 
@@ -31,17 +33,19 @@ const renderDados = (result) => {
 }
 
 const receberDados = async () => {
+   
     const url = 'https://tasty.p.rapidapi.com/recipes/list?from=0&size=20&tags=under_30_minutes';
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'f35fae5887msh08c30878b116b9ep112007jsnb8b1b2c12c5d',
+            'X-RapidAPI-Key': key,
             'X-RapidAPI-Host': 'tasty.p.rapidapi.com'
-        }
-    };
-
+                }
+    }
+    console.log(url)
     try {
         const response = await fetch(url, options);
+        console.log(response)
         const result = await response.json();
         console.log(result);
 
@@ -51,5 +55,4 @@ const receberDados = async () => {
         console.log(error);
     }
 }
-
 receberDados();
