@@ -1,0 +1,28 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "anoPublicacao": 1954
+    },
+    {
+      "id": 2,
+      "titulo": "Fundação",
+      "autor": "Isaac Asimov",
+      "anoPublicacao": 1953
+    },
+    {
+      "id": 3,
+      "titulo": "Duna",
+      "autor": "Frank Herbert",
+      "anoPublicacao": 1965
+    },
+    {
+      "id": "df1e",
+      "titulo": "Coraline",
+      "autor": "Neil Gaiman",
+      "anoPublicacao": "3444"
+    }
+  ]
+}
