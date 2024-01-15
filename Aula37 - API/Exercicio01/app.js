@@ -10,8 +10,8 @@
 const formulario = document.querySelector("#formulario");
 
 
-    formulario.addEventListener("submit", event => {
-        event.preventDefault();
+    // formulario.addEventListener("submit", event => {
+    //     event.preventDefault();
      // Pegando o valor digitado no input de pesquisa
         const buscarCidades = async () =>{
             try {
@@ -33,4 +33,4 @@ const formulario = document.querySelector("#formulario");
     }catch (erro){
         console.log(erro)
     }}
-})
+buscarCidades()

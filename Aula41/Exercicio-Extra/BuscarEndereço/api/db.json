@@ -1,0 +1,10 @@
+{
+    "Clientes": [
+        {
+            "id_cliente":"1",
+            "nome":"Juan Carlos",
+            "sobrenome":"Perez",
+            "endereco":"Calle 23 #45 - 67"
+        }
+    ] 
+  }

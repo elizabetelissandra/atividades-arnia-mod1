@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(197, 63, 63)
+}
+h1{
+    text-align: center;
+    background-color: rgb(177, 33, 33);
+    padding: 1em;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: rgb(197, 63, 63);
+    padding: 1em;
+}
+label:first-child{
+    margin-top: 0.5em;
+}
+
+label{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+input{
+    background-color: darkgrey;
+    color: rgb(70, 57, 57);
+    padding: 0.5em 0.5em;
+}
+button{
+    padding: 1em 2em;
+    background-color: rgb(255, 80, 80);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.div-resposta-filho{
+    text-align: center;
+    margin-top: 2em;
+    color: black;
+    border: 2px solid;
+    
+}
+
+.div-resposta-filho span{
+    font-size: 25px
+}
+
+.div-resposta-filho h2{
+    font-size: 30px;
+    padding: 1em;
+}
+.div-resposta-filho p{
+    font-size: 16px;
+    line-height: 1.4;
+    
+}
