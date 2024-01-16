@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "imagem": "https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg",
+      "title": "'Estamos mortos. É um golpe muito duro', diz Messi após derrota da Argentina",
+      "descricao": "O atacante Lionel Messi, da Argentina, usou palavras fortes para expressar a tristeza pela derrota por 2 a 1 para a Arábia Saudita, nesta terça-feira, na abertura do Grupo C da Copa do Mundo..."
+    },
+    {
+      "title": "Bale marca, e País de Gales busca empate com os Estados Unidos",
+      "author": "undefined",
+      "imagem": "https://cultura.uol.com.br/upload/tvcultura/copadomundo/20220929150313_276175746-5018301328251106-7395804488597671892-n-1-1-.jpg",
+      "descricao": "O jogo teve dois tempos bem distintos. O primeiro, dominado amplamente pelos Estados Unidos, que abriram o placar com Weah, mas não souberam aproveitar o nulo ataque galês para fazer mais gols. Na segunda etapa, País de Gales mudou...",
+      "id": "2"
+    },
+    {
+      "title": "Entenda acusação contra Patricia Lélis por se passar de advogada de imigração",
+      "author": "g1 DF",
+      "imagem": "https://s2-g1.glbimg.com/kbvAJpFzL8DJmUEY7r4qOGd49DA=/0x0:1920x1080/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2016/08/09/patricia_lelis_20160809093544.jpg",
+      "descricao": "A jornalista Patrícia de Oliveira Souza Lélis Bolin, de 29 anos, está sendo procurada pelo FBI por se passar por advogada de imigração e aplicar um golpe de mais de US$ 700 mil, o equivalente a cerca de R$ 3,4 milhões. A brasileira é acusada pela Justiça dos Estados Unidos de fraude eletrônica, transações monetárias ilegais e roubo de identidade agravado.",
+      "id": "cbee"
+    },
+    {
+      "title": "Morador de Belford Roxo dorme em colchão inflável e acorda boiando dentro do quarto alagado no RJ: ‘Pobre não tem dia de paz’; ",
+      "author": "g1 Rio",
+      "imagem": "https://s2-g1.glbimg.com/JO8OKLBbYyVerw2dtEjOQzFC4DA=/162x322:678x612/810x456/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/F/x/GAFvw2T4y5v4lKZjULAQ/whatsapp-image-2024-01-15-at-16.41.45.jpeg",
+      "descricao": "Jovem filmou a situação e contou que tinha perdido a cama em outra enchente e, por isso, dormia em um colchão inflável.",
+      "id": "a97d"
+    },
+    {
+      "title": "Vacina da dengue: governo vai priorizar faixa etária de 6 a 16 anos",
+      "author": "g1",
+      "imagem": "https://s2-g1.glbimg.com/SKnp4BYa5O4Qs8wf5VuII3uepRY=/97x0:1121x576/810x456/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/q/F/5GApBUTCAKC78raYHuiA/whatsapp-image-2023-07-03-at-18.09.55.jpeg",
+      "descricao": "País terá acesso a doses suficientes para vacinar 3 milhões de pessoas.",
+      "id": "c8fa"
+    }
+  ],
+  "users": []
+}
