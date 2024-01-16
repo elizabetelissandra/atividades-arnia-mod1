@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navegador{
+    background-color: #6950A1;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.navegador div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador h2{
+    color: white;
+    font-size: 35px;
+}
+
+.navegador button{
+    background-color: #FBB04D;
+    color: white;
+    border: none;
+    padding: 1em 1em;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.noticias{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.noticia{
+    display: flex;
+    width: 80%;
+    height: 22em;
+    margin: 5em;
+    padding: 2em;
+    border: 2px solid #6950A1;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.noticia h2{
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 1em;
+    color: #6950A1;
+}
+.noticia p{
+    padding: 1.5em;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.imagem{
+    width: 401px;
+    height: 223px;
+    max-width: 400px;
+}
+
+.editar{
+    background:#6950a1;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.excluir{
+    background:#ffffff;
+    color: black;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+    outline: none;
+}

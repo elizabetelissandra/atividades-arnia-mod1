@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navegador{
+    background-color: #6950A1;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.navegador div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador h2{
+    color: white;
+    font-size: 35px;
+}
+
+.navegador a{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    gap: 0.8em;
+}
+
+.formulario label{
+    font-size: 16px;
+}
+
+.formulario input, textarea{
+    border-radius: 15px;
+    border: 1px solid #6950A1;
+    padding: 0.5em;
+}
+.formulario button{
+    border-radius: 25px;
+    background: #6950A1;  
+    color: white; 
+    font-size: 16px; 
+    padding: 0.5em;
+}

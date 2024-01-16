@@ -1,0 +1,13 @@
+{
+  "Cadastro-de-Livros": [
+    {
+      "id": "f31c",
+      "imagem": "https://m.media-amazon.com/images/I/71-GgAK4egL._SL1021_.jpg",
+      "Nome": "Sábado à noite",
+      "Autor": "Babi Dewet",
+      "Editora": "Generale",
+      "anoPublicacao": "2012",
+      "categoria": "Romance"
+    }
+  ]
+}

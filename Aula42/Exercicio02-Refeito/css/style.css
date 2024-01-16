@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    color: #3f638d;
+    background-color: #c4c19a;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212756;
+    
+}
+h1{
+    color: #d1d1e7;
+    text-align: center;
+    font-size: 3em;
+    line-height: 1;
+    letter-spacing: -0.075em;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: #d1d1e7;
+    color: #212756;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+.livros{
+    margin: 2em auto;
+}
+
+.div-filho{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: 2em auto;
+    gap: 5em;
+    padding: 2em;
+    border-radius: 0.5em;
+    border: 5px solid #3f638d;
+    background-color: #abaa7d;
+}
+.div-filho div:last-child p{
+    padding: 0.5em; 
+}
