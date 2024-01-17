@@ -36,6 +36,7 @@ button{
     border-radius: 5px;
 }
 
+
 button a{
     text-decoration: none;
     color: inherit;
@@ -58,4 +59,10 @@ button a{
 }
 .div-filho div:last-child p{
     padding: 0.5em; 
+}
+
+.div-filho img{
+    height: 40vh;
+    object-fit: cover;
+    max-width: 400px;
 }

@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    /* background-color: #4e4b48; */
+}
+
 .navegador{
     background-color: #6950A1;
     display: flex;
@@ -39,9 +43,9 @@
 }
 .noticia{
     display: flex;
-    width: 80%;
-    height: 22em;
-    margin: 5em;
+    width: 90%;
+    height: auto;
+    margin: 2em;
     padding: 2em;
     border: 2px solid #6950A1;
     border-radius: 10px;
@@ -58,17 +62,23 @@
 .noticia p{
     padding: 1.5em;
     color: #000;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
 
 }
 .imagem{
-    width: 401px;
-    height: 223px;
-    max-width: 400px;
+    max-width: 250px;
+    max-height: auto;
 }
 
+.botoes{
+    display: flex;
+    gap: 1em;
+    position: relative;
+    top:50%;
+    
+}
 .editar{
     background:#6950a1;
     color: #ffffff;
@@ -78,13 +88,55 @@
     border: none;
     outline: none;
 }
-
 .excluir{
     background:#ffffff;
-    color: black;
+    color: #1e1e1e;
     padding: 0.5em 1em;
     cursor: pointer;
     border-radius: 10px;
     border: 1px rgb(0, 0, 0) solid;
     outline: none;
+}
+
+@media screen and  ( max-width : 768px )  { 
+    .navegador{
+        max-width: 100%;
+    }
+
+    .noticia{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+    }
+    
+    .noticia button{
+        margin-left: 1em;
+    }
+}
+
+@media screen and  ( max-width : 576px )  { 
+    .navegador img{
+        width: 15vw !important;
+    }
+    .navegador h2{
+        font-size: 25px;
+    }
+    .navegador button{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .navegador h2{
+        font-size: 15px;
+    }
+    .navegador button{
+        font-size: 15px;
+    }
+    .noticia{
+        width: 70%;
+        height: auto;
+        margin: 2em auto;
+    }
 }

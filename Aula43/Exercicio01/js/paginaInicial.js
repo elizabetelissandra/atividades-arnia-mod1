@@ -16,11 +16,21 @@ const exibirDados = noticias => {
     let descricao = noticia.descricao;
     
     container.innerHTML += `<div class='noticia'>
-        <div><img class='imagem' src='${imagem}'/></div><br><div><h2>${titulo}</h2><p>${descricao}</p></div>
         <div>
+          <img class='imagem' src='${imagem}'/>
+        </div>
+        <div>
+            <h2>${titulo}</h2>
+            <p>${descricao}</p>
+        </div>
+        
+        
+        <div class='botoes'>
         <a href='../html/editar.html?id=${noticia.id}'>
         <button class="editar">Editar</button></a>    
         <button class='excluir' onclick="deletarNoticia('${noticia.id}')">Excluir</button>
+        </div>
+        
         `;
   });
 };

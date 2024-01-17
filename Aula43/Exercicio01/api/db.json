@@ -8,11 +8,25 @@
       "descricao": "Participação dependerá de critérios, como aprovação e realização do Enem. Valores e periodicidade dos depósitos ainda serão definidos. MEC espera iniciar pagamentos em março."
     },
     {
-      "id": "8536",
-      "title": "Ex-Vasco, Marquinhos do Sul perde tudo com chuvas no Rio: \"Foi só destruição\"",
-      "author": "g1 DF",
-      "imagem": "https://s2-ge.glbimg.com/nfuuBIOMDZ_iyXunoPZbYzn49Dk=/0x0:515x774/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/0/c/BTJPEPSkumOnVgzNCCGA/chuva2.jpg",
-      "descricao": "Contratado pelo Mixto, atacante estava em Cuiabá quando ficou sabendo por vizinhos que água havia invadido sua casa. Ele pede ajuda: \"É todo um sonho que estava ali dentro\""
+      "title": " Descoberta Revolucionária: Cientistas Criam Árvores que Produzem Energia Solar",
+      "author": "teste autor",
+      "imagem": "https://www.enel.com.br/content/enel-br/pt-ceara/megamenu/midia/news/2020/09/arvores-solares-pelo-brasil/_jcr_content/carousel/items/image.img.jpg/1606517481593.jpg",
+      "descricao": "Pesquisadores surpreendem o mundo ao desenvolverem árvores capazes de gerar energia solar. As folhas modificadas absorvem a luz solar e convertem-na diretamente em eletricidade, oferecendo uma solução inovadora para a produção de energia sustentável. Ambientalistas estão entusiasmados com a perspectiva de florestas se tornando fontes de energia limpa.",
+      "id": "5bac"
+    },
+    {
+      "id": "48ea",
+      "title": "Robôs Chefes de Cozinha Conquistam Estrelas Michelin",
+      "author": "teste autor",
+      "imagem": "https://api.time.com/wp-content/uploads/2015/04/moley-robotics-automated-kitchen_lr.jpg",
+      "descricao": "Em um marco histórico para a gastronomia, restaurantes liderados por robôs chefs de cozinha foram premiados com estrelas Michelin. Os críticos elogiaram a precisão, consistência e inovação culinária dos pratos preparados pelos autômatos. Será este o início de uma era gourmet comandada por inteligência artificial?"
+    },
+    {
+      "id": "7983",
+      "title": "Primeira Cidade Flutuante do Mundo Inaugurada no Oceano Pacífico",
+      "author": "teste autor",
+      "imagem": "https://img.olhardigital.com.br/wp-content/uploads/2023/06/dogencity-1.jpg",
+      "descricao": "Um consórcio internacional de arquitetos e engenheiros inaugurou a primeira cidade flutuante, uma maravilha arquitetônica ancorada no Oceano Pacífico. Com edifícios suspensos sobre a água e infraestrutura sustentável, a cidade promete ser um modelo para futuras comunidades à medida que enfrentamos os desafios do aumento do nível do mar."
     }
   ],
   "users": []
