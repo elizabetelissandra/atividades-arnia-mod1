@@ -16,11 +16,6 @@ body{
     padding: 1.5em;
 }
 
-.navegador div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .navegador h2{
     color: white;
@@ -31,9 +26,10 @@ body{
     background-color: #FBB04D;
     color: white;
     border: none;
-    padding: 1em 1em;
+    padding: 0.4em 0.8em;
     border-radius: 15px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .noticias{
@@ -68,15 +64,14 @@ body{
 
 }
 .imagem{
-    max-width: 250px;
+    max-width: 400px;
     max-height: auto;
 }
 
 .botoes{
     display: flex;
     gap: 1em;
-    position: relative;
-    top:50%;
+    justify-content: flex-end;
     
 }
 .editar{

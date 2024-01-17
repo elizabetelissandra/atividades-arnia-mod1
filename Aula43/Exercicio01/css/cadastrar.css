@@ -52,8 +52,10 @@
     border-radius: 25px;
     background: #6950A1;  
     color: white; 
-    font-size: 16px; 
-    padding: 0.5em;
+    font-size: 15px; 
+    font-weight: bold;
+    padding: 0.7em;
+    text-transform: uppercase;
 }
 
 @media screen and  ( max-width : 576px )  { 

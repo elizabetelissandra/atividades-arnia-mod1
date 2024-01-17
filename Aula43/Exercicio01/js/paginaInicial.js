@@ -6,6 +6,10 @@ const deletarNoticia = async(id) => {
     receberDados()
 }
 
+const editarNoticia = (id) =>{
+    window.location = `../html/editar.html?id=${id}`
+}
+
 const exibirDados = noticias => {
   // Pegando os dados do localStorage e transformando em um array de objet
   const container = document.querySelector(".noticias");
@@ -22,14 +26,16 @@ const exibirDados = noticias => {
         <div>
             <h2>${titulo}</h2>
             <p>${descricao}</p>
+
+            <div class='botoes'>
+      
+              <button class="editar" onclick="editarNoticia('${noticia.id}')">Editar</button>    
+              <button class='excluir' onclick="deletarNoticia('${noticia.id}')">Excluir</button>
+            </div>
         </div>
         
         
-        <div class='botoes'>
-        <a href='../html/editar.html?id=${noticia.id}'>
-        <button class="editar">Editar</button></a>    
-        <button class='excluir' onclick="deletarNoticia('${noticia.id}')">Excluir</button>
-        </div>
+        
         
         `;
   });
